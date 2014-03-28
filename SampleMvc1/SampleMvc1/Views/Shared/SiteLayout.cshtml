@@ -5,6 +5,7 @@
 <meta name="description" content="" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>Barn Animal by Free CSS Templates - @ViewBag.Title</title>
+<script type="text/javascript" src="/Scripts/jquery-2.1.0.js"></script>
 <link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css" />
 <link href="/Content/CSS/style.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
@@ -69,5 +70,7 @@
 	<p>Copyright (c) 2012 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>. Photos by <a href="http://fotogrph.com/">fotogrph</a>.</p>
 </div>
 <!-- end #footer -->
+
+	@RenderSection("JsLoad", required: false)
 </body>
 </html>

@@ -89,6 +89,9 @@
     <Content Include="Content\Images\wrapper-bg.jpg" />
     <Content Include="Content\CSS\style.css" />
     <Content Include="Views\Shared\SiteLayout.cshtml" />
+    <Content Include="Scripts\jquery-2.1.0-vsdoc.js" />
+    <Content Include="Scripts\jquery-2.1.0.js" />
+    <Content Include="Scripts\jquery-2.1.0.min.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -106,4 +109,7 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
+  <ItemGroup>
+    <None Include="Scripts\jquery-2.1.0.min.map" />
+  </ItemGroup>
 </Project>
