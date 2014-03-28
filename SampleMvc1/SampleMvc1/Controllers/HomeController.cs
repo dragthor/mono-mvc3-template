@@ -10,10 +10,10 @@ namespace SampleMvc1.Controllers
     {
         public ActionResult Index()
         {
-			ViewBag.Title= "Kris Title";
-			ViewBag.Message = "Kris Message";
+			ViewBag.Title= "Test Title";
+			ViewBag.Message = "Test Message.";
 
-            return View ();
+			return View ();
         }
 
 		/*
