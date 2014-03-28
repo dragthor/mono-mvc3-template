@@ -10,10 +10,9 @@ namespace SampleMvc1.Controllers
     {
         public ActionResult Index()
         {
-			ViewBag.Title= "Test Title";
-			ViewBag.Message = "Test Message.";
+			var model = new PageCommon () { Title = "Test Title", Message = "Test Message" };
 
-			return View ();
+			return View (model: model);
         }
 
 		/*

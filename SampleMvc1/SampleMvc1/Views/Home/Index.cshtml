@@ -2,4 +2,10 @@
     Layout = "~/Views/Shared/SiteLayout.cshtml";
 }
 
-@ViewBag.Message
+@model SampleMvc1.PageCommon
+
+@{
+	ViewBag.Title = Model.Title;
+}
+
+@Model.Message
